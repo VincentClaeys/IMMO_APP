@@ -1,0 +1,118 @@
+.card {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+}
+
+.image {
+  width: 60%;
+  background-image: url("../../img/testFOTO.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.pageTitle {
+  color: black;
+  font-size: 4em;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.info {
+  width: 60%;
+  padding: 20px;
+  margin-left: 5vw;
+}
+.streetnameHouse {
+  font-size: 1em;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card_button {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px 15px;
+  border: 1px solid rgb(150, 150, 150);
+  background-color: rgb(96, 93, 93);
+  text-decoration: none;
+  margin-top: 15vh;
+  cursor: pointer;
+}
+.btn:hover {
+
+  border: 1px solid black;
+  background-color: black;
+
+}
+
+.cardMessage {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-left: 2vw;
+  
+  
+  }
+  
+  .titleMessage {
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: -2vw;
+  }
+  
+  .formMessage {
+    display: flex;
+    flex-direction: column;
+  
+    width: 43%;
+  }
+  
+  .inputMessage {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 20vh;
+    resize: none;
+  
+  }
+  
+  
+  .buttonMessage {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    padding: 7.5px 15px;
+    border: 1px solid rgb(93, 90, 90);
+    background-color: rgb(93, 90, 90);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  .buttonMessage:hover {
+    background-color: black;
+  }
+  
+  

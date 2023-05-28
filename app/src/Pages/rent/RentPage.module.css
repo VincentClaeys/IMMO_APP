@@ -1,0 +1,134 @@
+
+.container {
+    background-image: url("../../img/huren2.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    
+}
+.tekstContainer{
+    position: absolute;
+    top: 32.5vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.pageTitle {
+    color: black;
+    font-size: 4em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.pageIntro {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+
+.search_container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .search{
+    margin-top: 10vh;
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    background-color:rgb(247, 247, 247);
+    border: 1px solid rgb(210, 208, 208);
+    text-align: center;
+    align-content: center;
+  }
+  
+  .search::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  
+  }
+  .card_container {
+    display: flex;
+    width: 80vw;
+    margin-left: 10vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  
+  .card {
+    width: 300px;
+    margin-top: 10vh;
+    background-color:rgb(247, 247, 247);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10vh;
+  }
+  
+  .card_image {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .card_info {
+    padding: 20px 20px 20px 0px;
+  }
+  .card_title {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 4px 2px;
+    background: grey;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card_adress {
+    font-weight: 100;
+    font-size: 1em;
+    text-transform: uppercase;
+  }
+  .card_house_info {
+    font-weight: 100;
+    font-size: 0.9em;
+  }
+  .card_bottomInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card_text {
+    font-size: 0.8em;
+    line-height: 1.4;
+    font-weight: 300;
+  }
+  
+  .card_price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(6, 107, 6);
+  }
+
+  .btnDetails {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    padding: 7.5px 15px;
+    border: 1px solid rgb(93, 90, 90);
+    background-color: black;
+    background-color: rgb(93, 90, 90);
+    text-decoration: none;
+  }
+  
+  .btnDetails:hover {
+    background-color: black;
+  }

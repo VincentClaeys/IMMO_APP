@@ -1,0 +1,543 @@
+.container {
+  background-image: url("../../img/dashboard.png");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+.containerFav {
+  background-image: url("../../img/favo.png");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+.container {
+  background-image: url("../../img/dashboard.png");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+.tekstContainer {
+  position: absolute;
+  top: 32.5vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pageTitleRole {
+  color: black;
+  font-size: 3em;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.pageTitle {
+  color: black;
+  font-size: 4em;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.pageIntro {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.btnAdd {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px 15px;
+  border: 1px solid rgb(46, 45, 45);
+  background-color: rgb(46, 45, 45);
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.plusInBtn{
+  
+  color: white;
+}
+.loginContent_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 5vh;
+}
+.Username {
+  color: black;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.OfficeName {
+  margin-top: -2vh;
+  margin-bottom: 5vh;
+  color: black;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+.province {
+  color: black;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  margin-top: -2vh;
+}
+.UsernameEdit {
+  color: black;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.favorites {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  margin-right: 2em;
+}
+.profile {
+  margin-right: 2em;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+.houses {
+
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.loginTitleTwo {
+  color: black;
+  font-size: 1.2em;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.loginText {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+}
+
+form {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+}
+input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+}
+
+.btnLogin {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px 15px;
+  border: 1px solid rgb(46, 45, 45);
+  background-color: rgb(46, 45, 45);
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btnEditUsername {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px 15px;
+  border: 1px solid rgb(46, 45, 45);
+  background-color: rgb(46, 45, 45);
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 5vh;
+}
+.btnDelete {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px 15px;
+  border: 1px solid red;
+  background-color: red;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-top: 5vh;
+  cursor: pointer;
+}
+
+.btnDelete:hover {
+  background-color: rgb(222, 7, 7);
+  border: 1px solid rgb(222, 7, 7);
+}
+
+.link_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 75%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.house {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 75%;
+  height: 10vh;
+  margin: 2vh;
+  padding: 10px;
+
+}
+.housePrice {
+  color: green;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile_photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+.profile_photo_house {
+  width: 20%;
+  height: 100%;
+  background-image: url("../../img/testFOTO.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-right: 2vw;
+}
+.profile_photoEdit {
+  margin-top: 7.5vh;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+.house_photoEdit {
+  margin-top: 7.5vh;
+  width: 200px;
+  height: 100px;
+  background-image: url("../../img/testFOTO.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+
+.user_details {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.house_details {
+  flex-grow: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btnsAction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.btnsHouses {
+  display: flex;
+  align-items: flex-end;
+}
+
+.btnEdit {
+  padding: 8px 16px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  width: 10vw;
+  cursor: pointer;
+  margin-bottom: 2vh;
+}
+.btnEditHouse {
+  padding: 8px 16px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  width: 10vw;
+  cursor: pointer;
+  margin-right: 1vw;
+
+}
+.btnLink {
+  color: white;
+  text-decoration: none;
+}
+.btnLinkHouse {
+  color: white;
+  text-decoration: none;
+}
+
+.deleteBtn {
+  padding: 8px 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  width: 10vw;
+  cursor: pointer;
+}
+
+.user_details_name {
+  color: black;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.house_details_name {
+  color: black;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.house_office {
+  color: black;
+  font-size: 0.7em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.user_details_description {
+  color: black;
+  font-size: 0.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.house_details_description {
+  color: black;
+  font-size: 0.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.btnEdit:hover {
+  background-color: rgb(5, 82, 5);
+}
+.deleteBtn:hover {
+  background-color: rgb(225, 8, 8);
+}
+
+/* houseFavorites */
+.card_container {
+  display: flex;
+  width: 80vw;
+  margin-left: 10vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+hr{
+  width: 50%;
+  margin-top: 0%;
+  margin-left: 0%;
+  border: 1px solid rgba(211, 204, 204, 0.623);
+}
+
+.cardQuestion {
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+
+}
+.streetNameMessage{
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.sender {
+  font-size: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.receiver {
+  font-size: 16px;
+  color: #555555;
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin-bottom: 2vh;
+  
+}
+
+.message {
+  font-size: 0.8em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+ 
+}
+
+.favoritesContainer{
+  display: flex;
+  width: 80vw;
+  margin-left: 10vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cardHouseFavorite {
+  width: 300px;
+  margin-top: 10vh;
+  background-color:rgb(247, 247, 247);
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10vh;
+}
+
+.card_image {
+  height: 200px;
+  width: 100%;
+}
+
+.card_info {
+  padding: 20px 20px 20px 0px;
+}
+.card_title {
+  font-size: 1.2em;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 4px 2px;
+  background: grey;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.card_adress {
+  font-weight: 100;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.card_house_info {
+  font-weight: 100;
+  font-size: 0.9em;
+}
+.card_bottomInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_text {
+  font-size: 0.8em;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.card_price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: rgb(6, 107, 6);
+}
+.btnDetails {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 7.5px 15px;
+  border: 1px solid black;
+  background-color: black;
+  text-decoration: none;
+}
+
+.profilePictureOffice {
+  background-image: url("../../img/Real_estate.png");
+  background-size: cover;
+  background-position: center center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+
+.btnDetails:hover {
+  background-color: black;
+}
+.description{
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  height: 10vh;
+  resize: none;
+}
+
+.addNewUserOffice {
+
+margin-left: 10vw;
+margin-bottom: 10vh;
+
+
+}
+
+.addTitle{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+ font-size: 1.5em;
+ text-transform: uppercase;
+
+}

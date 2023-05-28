@@ -1,0 +1,24 @@
+.footer {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    height: 20vh;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    border-top: 1px solid black;
+   
+}
+.nameFooter { 
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.footerEmail{
+    color: black;
+    font-weight: 100;
+    font-size: 0.8em;
+}

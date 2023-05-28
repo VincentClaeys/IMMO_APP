@@ -1,0 +1,89 @@
+
+
+.header {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0rem 2rem 0rem;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+    
+}
+
+.name { 
+    margin-left: 5vw; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.accountName {
+    color: rgba(0, 0, 0, 0.492);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: all .3s ease;
+    font-size: 15px;
+    font-weight: 100; 
+    padding: 2vw;
+}
+
+.accountName:hover {
+    color: black;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+
+.list__item a {
+    color: rgba(0, 0, 0, 0.492);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: all .3s ease;
+    font-size: 15px;
+    font-weight: 100; 
+    padding: 2vw;
+}
+
+
+
+.btnLogout {
+    margin-right: 5vw; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 700; 
+    color: white;
+    padding: 7.5px 15px;
+    border: 1px solid rgb(46, 45, 45);
+    background-color:  rgb(46, 45, 45);
+    text-decoration: none;
+    
+}
+
+.btnLogout:hover {
+    background-color: black;
+}
+
+nav a {
+    color: rgba(0, 0, 0, 0.492);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 100; 
+    padding: 2vw;
+}
+
+nav a:hover {
+    color: #161616;
+    font-weight: 900;
+    
+}
+
+  
