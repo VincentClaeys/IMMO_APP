@@ -43,16 +43,7 @@ const useMutation = () => {
     }
   }, [auth]);
 
-  useEffect(() => {
-    const cleanup = () => {
-      // Cleanup code here if needed
-    };
 
-    return () => {
-      cleanup();
-      mutate.cancel();
-    };
-  }, [mutate]);
 
   return {
     isLoading,

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Input from "../../components/Global/Input/Input";
 import ROUTES from "../../consts/routes";
@@ -42,12 +42,7 @@ const Register = () => {
       },
     });
   };
-  useEffect(() => {
-    return () => {
 
-      mutate.cancel();
-    };
-  }, [mutate]);
 
   return (
     <div>
