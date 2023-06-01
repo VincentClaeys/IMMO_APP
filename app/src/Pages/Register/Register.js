@@ -31,7 +31,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    mutate(`${process.env.REACT_APP_API_URL}/register`, {
+    mutate(`https://${process.env.REACT_APP_API_URL}/register`, {
       method: "POST",
       data,
       onSuccess: (data) => {
