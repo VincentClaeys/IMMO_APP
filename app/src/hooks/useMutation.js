@@ -19,7 +19,6 @@ const useMutation = () => {
     const headers = {
       accept: "application/json",
       "content-type": "application/json",
-      'Origin': 'https://immoapp-production.up.railway.app',
     };
 
     // Only add the user authentication data to headers if it exists

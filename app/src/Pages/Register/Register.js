@@ -31,7 +31,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    mutate(`https://immoapi-production.up.railway.app/register`, {
+    mutate(`${process.env.REACT_APP_API_URL}/register`, {
       method: "POST",
       data,
       onSuccess: (data) => {
